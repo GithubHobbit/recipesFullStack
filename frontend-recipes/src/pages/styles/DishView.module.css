@@ -1,0 +1,101 @@
+.dish_content {
+    max-width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*DISH*/
+.form {
+    padding: 0 1rem;
+    box-shadow: 0 4px 16px #ccc;
+    border-radius: 5px;
+}
+
+.title {
+    margin-left: 1rem;
+}
+
+.dish_img {
+    width: calc(100%  + 2rem);
+    margin: 0 -1rem;
+}
+
+/*USER*/
+.user {
+    display: flex;
+    padding: 0.6rem 0;
+    margin: 1.5rem 1rem;
+
+}
+
+.avatar_img {
+    height: 5rem;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+.username {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.created {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.description {
+    border: 4px solid transparent;
+    border-image: linear-gradient(#0B0E7F , #0B95DD);;
+    border-image-slice: 1;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* RECIPES */
+.recipes {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recipe {
+    line-height: 1.4rem;
+}
+
+.ingredient {
+    font-weight: 600;
+    color: #59a582;
+}
+
+
+/* STEPS */
+.step {
+    margin-bottom: 1.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.step_order {
+    padding: 1rem;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+
+.step_img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.step_description {
+    padding: 1.5rem 2rem 1.5rem;
+}
+
+
+

@@ -1,0 +1,30 @@
+.select_wrapper {
+    position: relative;
+}
+
+.select {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    outline: 0;
+    font-size: 1rem;
+    appearance: none;
+    padding-right: 20px;
+    
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    margin-right: 0.5rem;
+    color: #444;
+}
+
+.select:focus ~ .icon {
+    color: #eec408;
+}

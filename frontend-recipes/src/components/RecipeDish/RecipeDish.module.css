@@ -1,0 +1,48 @@
+
+.row {
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+
+
+.column + .column {
+    margin-left: 0.5rem;
+}
+
+
+.column_ingredient {
+    flex: 0 1 100%;
+    min-width: 150px;
+}
+
+.column_count {
+    flex: 0 0 130px;
+}
+
+.column_measure {
+    flex: 0 0 130px;
+}
+
+.btn_delete_recipe {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
+
+.row input,
+.row select {
+    height: 30px;
+    margin: 0;
+}
+
+.row select {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.button_add {
+    padding: 0 2rem;
+}
+
+.btn_add_icon {
+    margin-right: 0.75rem;
+}

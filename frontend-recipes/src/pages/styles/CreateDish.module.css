@@ -1,0 +1,40 @@
+.create_dish_form {
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 16px #ccc;
+    padding: 1rem;
+}
+
+.field {
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.row_title {
+    margin-bottom: 0.4rem;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+input[type=file]:focus + .input_picture_dish_btn {
+    box-shadow: 0 0 0 0.2rem rgba(48, 190, 255, .5) !important;
+}
+
+.input_picture_dish {
+    width: 200px;
+}
+
+.input_picture_dish_text {
+    padding: 0 1rem;
+}
+
+.btn_submit {
+    width: 100%;
+}

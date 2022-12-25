@@ -1,0 +1,190 @@
+*, *::before, *::after {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   margin: 1.2rem 0; 
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #fafafa; 
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+:root {
+    --green-color: #59a582;
+    --vinous-color: #821154;
+    --violet-color: #5c2d98;
+    --red-color: #bb2133;
+    --orange-color: #e48f07;
+    
+}
+
+/* ------------------GREEN--------------------*/
+.is-btn-green {
+    background-color: #59a582 !important;
+    border: 1px solid #59a582 !important;
+}
+.is-btn-green:hover {
+    background-color: #5daf89 !important;
+    border: 1px solid #5daf89 !important;
+}
+
+.is-outline-btn-green {
+    background-color: transparent !important;
+    color: #59a582 !important;
+    border: 1px solid #59a582 !important;
+}
+.is-outline-btn-green:hover {
+    color: #777 !important;
+    border: 1px solid #777 !important;
+}
+
+.is-bg-green {
+    background-color: #59a582 !important;
+}
+.is-border-green {
+    border: 1px solid #59a582 !important;
+}
+
+/* --------------------VINOUS------------------*/
+.is-btn-vinous {
+    background-color: #821154 !important;
+    border: 1px solid #821154 !important;
+}
+.is-btn-vinous:hover {
+    background-color: #9c1466 !important;
+    border: 1px solid #9c1466 !important;
+}
+
+.is-outline-btn-vinous {
+    background-color: transparent !important;
+    color: #821154 !important;
+    border: 1px solid #821154 !important;
+}
+.is-outline-btn-vinous:hover {
+    color: #777 !important;
+    border: 1px solid #777 !important;
+}
+
+.is-bg-vinous {
+    background-color: #821154 !important;
+}
+.is-border-vinous {
+    border: 1px solid #821154 !important;
+}
+
+/* --------------------VIOLET------------------*/
+.is-btn-violet {
+    background-color: #5c2d98 !important;
+    border: 1px solid #5c2d98 !important;
+}
+.is-btn-violet:hover {
+    background-color: #6831af !important;
+    border: 1px solid #6831af !important;
+}
+
+.is-outline-btn-violet {
+    background-color: transparent !important;
+    color: #5c2d98 !important;
+    border: 1px solid #5c2d98 !important;
+}
+.is-outline-btn-violet:hover {
+    color: #777 !important;
+    border: 1px solid #777 !important;
+}
+
+
+.is-bg-violet {
+    background-color: #5c2d98 !important;
+}
+.is-border-violet {
+    border: 1px solid #5c2d98 !important;
+}
+
+/* -------------------RED-------------------*/
+.is-btn-red {
+    background-color: #bb2133 !important;
+    border: 1px solid #bb2133 !important;
+}
+.is-btn-red:hover {
+    background-color: #c4162b !important;
+    border: 1px solid #c4162b !important;
+}
+
+.is-outline-btn-red {
+    background-color: transparent !important;
+    color: #d2162c !important;
+    border: 1px solid #bb2133 !important;
+}
+.is-outline-btn-red:hover {
+    color: #777 !important;
+    border: 1px solid #777 !important;
+}
+
+.is-bg-red {
+    background-color: #bb2133 !important;
+}
+.is-border-red {
+    border: 1px solid #bb2133 !important;
+}
+
+/* -------------------LIGHT_BLUE-------------------*/
+.is-btn-orange {
+    background-color: #e48f07 !important;
+    border: 1px solid #e48f07 !important;
+}
+.is-btn-orange:hover {
+    background-color: #f09606 !important;
+    border: 1px solid #f09606 !important;
+}
+
+.is-outline-btn-orange {
+    background-color: transparent !important;
+    color: #e48f07 !important;
+    border: 1px solid #e48f07 !important;
+}
+.is-outline-btn-orange:hover {
+    color: #777 !important;
+    border: 1px solid #777 !important;
+}
+
+.is-bg-orange {
+    background-color: #e48f07 !important;
+}
+.is-border-orange {
+    border: 1px solid #e48f07 !important;
+}
+
+.others_colors {
+    background-color: #a4b313;
+    background-color: #e5c201;
+    background-color: #e48f07;
+    background-color: #dc5803;
+    background-color: #d61e00;
+    background-color: #d2162c;
+    background-color: #1a3db3;
+    background-color: #0f68d5;
+    background-color: #1da2de;
+}
